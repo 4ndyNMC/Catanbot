@@ -53,5 +53,12 @@ async def sb(ctx):
         embed.add_field(name=bord.names(x+1),value=bord.points(x+1),inline=True)
     await ctx.send(embed=embed)
 
+@bot.command()
+async def help(ctx):
+    embed=discord.Embed(color = 0)
+    embed.add_field(name='')
 
-bot.run('Njk3NjUxMzQ3MTM4MjgxNDcy.XqOmSA.-9XE8YgCFafjBTOe-rbVuRgA1HI')
+
+bot.run('token')
+
+# add poll feature
