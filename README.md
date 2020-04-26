@@ -1,0 +1,2 @@
+# catanbot
+my bot lmao
